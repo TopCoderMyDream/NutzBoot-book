@@ -1,37 +1,8 @@
-# 下载jar包
+# 配置Maven
 
-nutz本身并不强制依赖第三方的jar,但项目需要还是会加入下列的jar
+###  配置Maven国内镜像
 
-### Nutz本身
-
-* 不需要废话了
-* [下载地址](https://jfrog.nutz.cn/artifactory/jcenter/org/nutz/nutz/1.r.60/nutz-1.r.60.jar)
-
-### Mysql数据库驱动
-
-* Mysql作为本书选用的数据库,那它的驱动当然是必不可少的
-* 若使用6.x版本的驱动的话,务必使用最新版的druid
-* [下载地址](https://jfrog.nutz.cn/artifactory/jcenter/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40.jar)
-
-### 数据库连接池Druid
-
-* 推荐与Nutz一起使用的数据库连接池,带强大的SQL监控功能
-* [下载地址](https://jfrog.nutz.cn/artifactory/jcenter/com/alibaba/druid/1.0.26/druid-1.0.26.jar)
-
-### 关于Log4j
-
-* 如果你执意要加入log4j.jar,那么务必要将其配置log4j.properties配置好, 而且均为debug级别,以免遗漏本书提及的内容.
-* 但maven用户,就必须先加入log4j.jar了, 而且把log4j.properties配置好. 下面是推荐配置
-
-```properties
-log4j.rootLogger=debug,Console
-
-log4j.appender.Console=org.apache.log4j.ConsoleAppender
-log4j.appender.Console.layout=org.apache.log4j.PatternLayout
-log4j.appender.Console.layout.ConversionPattern=[%-5p] %d{HH:mm:ss.SSS} %l - %m%n
-```
-
-### maven配置
+- 打开maven下的conf\settings.xml,在
 
 ```xml
 		<dependency>
@@ -60,3 +31,14 @@ log4j.appender.Console.layout.ConversionPattern=[%-5p] %d{HH:mm:ss.SSS} %l - %m%
 			<version>5.1.40</version>
 		</dependency>
 ```
+
+### 关于Log4j
+
+```
+log4j.rootLogger=debug,Console
+
+log4j.appender.Console=org.apache.log4j.ConsoleAppender
+log4j.appender.Console.layout=org.apache.log4j.PatternLayout
+log4j.appender.Console.layout.ConversionPattern=[%-5p] %d{HH:mm:ss.SSS} %l - %m%n
+```
+

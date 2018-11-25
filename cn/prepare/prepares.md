@@ -4,6 +4,5 @@
 
 ## 知识点
 
-* 设置的Eclipse的编码
+* [设置的Idea的编码](https://www.cnblogs.com/wqh17/p/7007492.html)
 * 下载,安装,配置mysql数据库
-* 配置Eclipse中Server环境

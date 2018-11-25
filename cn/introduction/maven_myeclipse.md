@@ -7,7 +7,7 @@
 
 ## Maven项目
 
-在nutz-book-project的源码中, 有pom.xml
+在nutzboot-book-project的源码中, 有pom.xml
 
 推荐的maven mirror, 可大大提高jar下载速度. 注意是https协议.
 

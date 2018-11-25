@@ -3,7 +3,7 @@
 启动Mysql控制台, 建立数据库
 
 ```sql
-create database nutzbook default character set utf8;
+create database nb_book default character set utf8;
 ```
 运行后的截图
 

@@ -1,11 +1,10 @@
 # 选用工具
 
-本书基于Eclipse,Nutz,Mysql,Tomcat这4款基本工具
+本书基于IntelliJ IDEA,NutzBoot,Mysql,Redis,MongoDB,Maven这几个工具
 
 ### 存放工程及工具的目录
 
-* 请在D盘或你喜欢的目录下建一个叫nutzbook的空文件夹
-* 除JDK和Mysql外的工具均会解压到该目录
+* 随便一个目录咯
 
 ### Java Platform (JDK)
 
@@ -18,40 +17,25 @@
 * [下载页面](http://dev.mysql.com/downloads/), 选用5.7系列的最新版
 * 妥善安装,并设置密码为root
 
-### 开发工具 Eclipse 
+### 开发工具 IntelliJ IDEA 
 
-* [Eclipse官网](http://eclipse.org/)
-* 选用当前最新的4.6.1, [下载地址](http://www.eclipse.org/downloads/), JavaEE版
-* 请根据Jdk版本选用对应的版本, 并解压到nutzbook目录
-* 文件大小约254mb
+* [IntelliJ IDEA下载](https://www.jetbrains.com/idea/download)
+* 最好不要社区版,最好支持正版
 
-### Web容器 Tomcat
+### Redis(暂时可选)
 
-* [Tomcat 官网](http://tomcat.apache.org/)
-* [下载页面](http://tomcat.apache.org/download-80.cgi),选取Tomcat 8.x系列最新版
-* 解压到nutzbook目录
-* 文件大小约10mb
+* [Redis下载安装](https://blog.csdn.net/y_index/article/details/78706771)
 
-### 完成后的目录截图
+## MongoDB(暂时可选)
 
-![目录截图](images/download_tools.png)
+- [MongoDB下载安装](http://www.runoob.com/mongodb/mongodb-window-install.html)
+
+## Maven
+
+- [Maven官网](http://maven.apache.org/download.cgi)
 
 ### Java版本截图
 
 ![Java版本](images/java_version.png)
 
-### Eclipse 启动截图
-
-在nutzbook/eclipse目录中双击eclipse.exe启动eclipse
-
-在对话框中填入/选择nutzbook/workspace目录的路径, 并勾选为默认值
-
-![Eclipse启动](images/eclipse_startup.png)
-
-### Eclipse进入工作区
-
-![Eclipse启动](images/eclipse_into_workspace.png)
-
-### Eclipse最终效果
-
-![Eclipse最终截图](images/eclipse_complete.png)
+### 
